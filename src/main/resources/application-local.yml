@@ -1,0 +1,28 @@
+profiles:
+  active: local
+
+spring:
+  data:
+    mongodb:
+      url: mongodb://localhost:27017/documentdb
+      database: documentdb
+aws:
+  credentials:
+    aws-access-key: documentService
+    aws-secret-key: documentService
+    region: us-east-1
+    endpoint: http://localhost:4566
+
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb://documentService:documentService@localhost:27017/documentdb  # URI correta com autenticação
+#  profiles:
+#    active: local
+#
+#aws:
+#  credentials:
+#    aws-access-key: documentService
+#    aws-secret-key: documentService
+#    region: us-east-1
+#    endpoint: http://localhost:4566
