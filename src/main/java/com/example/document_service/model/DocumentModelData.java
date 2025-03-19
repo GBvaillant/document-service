@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -15,8 +14,7 @@ import java.time.LocalDateTime;
 public class DocumentModelData {
 
     private String name;
-
     private String link;
-
     private LocalDateTime createDate;
+
 }
