@@ -4,8 +4,10 @@ profiles:
 spring:
   data:
     mongodb:
-      url: mongodb://localhost:27017/documentdb
+      uri: mongodb://documentService:documentService@localhost:27017/documentdb?authSource=admin
       database: documentdb
+      username: documentService
+      password: documentService
 aws:
   credentials:
     aws-access-key: documentService
